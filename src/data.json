@@ -1,0 +1,1112 @@
+{
+  "tempjobs": {
+    "A": [
+      {
+        "jobs": [
+          {
+            "id": 1260,
+            "insertDatetime": "2021-03-30T10:19:02.710Z",
+            "orderLineId": 545,
+            "quantity": 1,
+            "status": "materials",
+            "dueDate": "2020-11-16T00:00:00.000Z",
+            "lineNumber": 1,
+            "splitNumber": 4,
+            "startTime": null,
+            "endTime": null,
+            "executionTime": null,
+            "startUserId": null,
+            "totalSetupExecutionTime": null,
+            "jobPrograms": [
+              {
+                "id": 28,
+                "insertDatetime": "2021-03-30T13:55:32.253Z",
+                "partProgramId": 7,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 1260,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 7,
+                  "insertDatetime": "2021-03-30T13:55:32.253Z",
+                  "orderLineId": null,
+                  "partNumber": "2607L5S08",
+                  "filename": "a",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 9
+                }
+              }
+            ],
+            "partPrograms": [
+              {
+                "id": 7,
+                "insertDatetime": "2021-03-30T13:55:32.253Z",
+                "orderLineId": null,
+                "partNumber": "2607L5S08",
+                "filename": "a",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 9
+              }
+            ],
+            "orderLine": {
+              "id": 545,
+              "insertDatetime": "2021-03-25T12:47:57.590Z",
+              "orderId": 117,
+              "partNumber": "2607L5S08",
+              "partDescription": "Machining - Sub-Contract",
+              "quantity": 4,
+              "revision": "5",
+              "cutLength": 5,
+              "cutQuantity": 3,
+              "machineSize": "medium",
+              "outerDimension": 2.5,
+              "innerDimension": 3,
+              "requiresMillProgram": "0",
+              "comment": "123",
+              "order": {
+                "id": 117,
+                "insertDatetime": "2021-03-25T12:47:57.543Z",
+                "orderNumber": "MO10885",
+                "navDueDate": "2020-11-19T00:00:00.000Z",
+                "dueDate": null,
+                "orderNumberExtended": "MO10885-12"
+              },
+              "material": {
+                "id": 545,
+                "insertDatetime": "2021-03-25T12:47:57.606Z",
+                "orderLineId": 545,
+                "materialPartNumber": "ST0375X0000P1",
+                "quantityOnHand": 0,
+                "materialStatus": "none_available",
+                "heatNumber": "12",
+                "materialGrade": "12"
+              }
+            },
+            "schedule": {
+              "id": 274,
+              "insertDatetime": "2021-04-29T15:57:31.273Z",
+              "jobId": 1260,
+              "cellLetter": "A1",
+              "plannedStartTime": "2021-04-29T22:00:00.000Z",
+              "plannedEndTime": "2021-04-30T16:15:00.000Z"
+            },
+            "jobMaterial": null
+          },
+          {
+            "id": 1235,
+            "insertDatetime": "2021-03-29T11:42:04.873Z",
+            "orderLineId": 545,
+            "quantity": 1,
+            "status": "materials",
+            "dueDate": "2020-11-17T00:00:00.000Z",
+            "lineNumber": 1,
+            "splitNumber": 3,
+            "startTime": null,
+            "endTime": null,
+            "executionTime": null,
+            "startUserId": null,
+            "totalSetupExecutionTime": null,
+            "jobPrograms": [
+              {
+                "id": 31,
+                "insertDatetime": "2021-03-30T13:55:32.270Z",
+                "partProgramId": 7,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 1235,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 7,
+                  "insertDatetime": "2021-03-30T13:55:32.253Z",
+                  "orderLineId": null,
+                  "partNumber": "2607L5S08",
+                  "filename": "a",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 9
+                }
+              }
+            ],
+            "partPrograms": [
+              {
+                "id": 7,
+                "insertDatetime": "2021-03-30T13:55:32.253Z",
+                "orderLineId": null,
+                "partNumber": "2607L5S08",
+                "filename": "a",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 9
+              }
+            ],
+            "orderLine": {
+              "id": 545,
+              "insertDatetime": "2021-03-25T12:47:57.590Z",
+              "orderId": 117,
+              "partNumber": "2607L5S08",
+              "partDescription": "Machining - Sub-Contract",
+              "quantity": 4,
+              "revision": "5",
+              "cutLength": 5,
+              "cutQuantity": 3,
+              "machineSize": "medium",
+              "outerDimension": 2.5,
+              "innerDimension": 3,
+              "requiresMillProgram": "0",
+              "comment": "123",
+              "order": {
+                "id": 117,
+                "insertDatetime": "2021-03-25T12:47:57.543Z",
+                "orderNumber": "MO10885",
+                "navDueDate": "2020-11-19T00:00:00.000Z",
+                "dueDate": null,
+                "orderNumberExtended": "MO10885-12"
+              },
+              "material": {
+                "id": 545,
+                "insertDatetime": "2021-03-25T12:47:57.606Z",
+                "orderLineId": 545,
+                "materialPartNumber": "ST0375X0000P1",
+                "quantityOnHand": 0,
+                "materialStatus": "none_available",
+                "heatNumber": "12",
+                "materialGrade": "12"
+              }
+            },
+            "schedule": {
+              "id": 277,
+              "insertDatetime": "2021-04-29T16:05:08.553Z",
+              "jobId": 1235,
+              "cellLetter": "B2",
+              "plannedStartTime": "2021-05-01T04:00:00.000Z",
+              "plannedEndTime": "2021-04-30T22:15:00.000Z"
+            },
+            "jobMaterial": null
+          }
+        ],
+        "total": 0
+      },
+      {
+        "jobs": [
+          {
+            "id": 1236,
+            "insertDatetime": "2021-03-29T11:43:52.606Z",
+            "orderLineId": 546,
+            "quantity": 1,
+            "status": "materials",
+            "dueDate": "2020-11-18T00:00:00.000Z",
+            "lineNumber": 2,
+            "splitNumber": 2,
+            "startTime": null,
+            "endTime": null,
+            "executionTime": null,
+            "startUserId": null,
+            "totalSetupExecutionTime": null,
+            "jobPrograms": [],
+            "partPrograms": [],
+            "orderLine": {
+              "id": 546,
+              "insertDatetime": "2021-03-25T12:47:57.700Z",
+              "orderId": 117,
+              "partNumber": "2607L3S08",
+              "partDescription": "Machining - Sub-Contract",
+              "quantity": 4,
+              "revision": "",
+              "cutLength": null,
+              "cutQuantity": null,
+              "machineSize": null,
+              "outerDimension": null,
+              "innerDimension": null,
+              "requiresMillProgram": null,
+              "comment": null,
+              "order": {
+                "id": 117,
+                "insertDatetime": "2021-03-25T12:47:57.543Z",
+                "orderNumber": "MO10885",
+                "navDueDate": "2020-11-19T00:00:00.000Z",
+                "dueDate": null,
+                "orderNumberExtended": "MO10885-12"
+              },
+              "material": {
+                "id": 546,
+                "insertDatetime": "2021-03-25T12:47:57.716Z",
+                "orderLineId": 546,
+                "materialPartNumber": "ST0375X0000P1",
+                "quantityOnHand": 57,
+                "materialStatus": "partial_available",
+                "heatNumber": "",
+                "materialGrade": ""
+              }
+            },
+            "schedule": {
+              "id": 293,
+              "insertDatetime": "2021-04-30T10:25:25.023Z",
+              "jobId": 1236,
+              "cellLetter": "A2",
+              "plannedStartTime": "2021-04-30T17:00:00.000Z",
+              "plannedEndTime": "2021-04-30T20:30:00.000Z"
+            },
+            "jobMaterial": null
+          }
+        ],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ],
+    "B": [
+      {
+        "jobs": [
+          {
+            "id": 1234,
+            "insertDatetime": "2021-03-29T11:41:47.076Z",
+            "orderLineId": 545,
+            "quantity": 2,
+            "status": "materials",
+            "dueDate": "2020-11-18T00:00:00.000Z",
+            "lineNumber": 1,
+            "splitNumber": 2,
+            "startTime": null,
+            "endTime": null,
+            "executionTime": null,
+            "startUserId": null,
+            "totalSetupExecutionTime": null,
+            "jobPrograms": [
+              {
+                "id": 30,
+                "insertDatetime": "2021-03-30T13:55:32.270Z",
+                "partProgramId": 7,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 1234,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 7,
+                  "insertDatetime": "2021-03-30T13:55:32.253Z",
+                  "orderLineId": null,
+                  "partNumber": "2607L5S08",
+                  "filename": "a",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 9
+                }
+              }
+            ],
+            "partPrograms": [
+              {
+                "id": 7,
+                "insertDatetime": "2021-03-30T13:55:32.253Z",
+                "orderLineId": null,
+                "partNumber": "2607L5S08",
+                "filename": "a",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 9
+              }
+            ],
+            "orderLine": {
+              "id": 545,
+              "insertDatetime": "2021-03-25T12:47:57.590Z",
+              "orderId": 117,
+              "partNumber": "2607L5S08",
+              "partDescription": "Machining - Sub-Contract",
+              "quantity": 4,
+              "revision": "5",
+              "cutLength": 5,
+              "cutQuantity": 3,
+              "machineSize": "medium",
+              "outerDimension": 2.5,
+              "innerDimension": 3,
+              "requiresMillProgram": "0",
+              "comment": "123",
+              "order": {
+                "id": 117,
+                "insertDatetime": "2021-03-25T12:47:57.543Z",
+                "orderNumber": "MO10885",
+                "navDueDate": "2020-11-19T00:00:00.000Z",
+                "dueDate": null,
+                "orderNumberExtended": "MO10885-12"
+              },
+              "material": {
+                "id": 545,
+                "insertDatetime": "2021-03-25T12:47:57.606Z",
+                "orderLineId": 545,
+                "materialPartNumber": "ST0375X0000P1",
+                "quantityOnHand": 0,
+                "materialStatus": "none_available",
+                "heatNumber": "12",
+                "materialGrade": "12"
+              }
+            },
+            "schedule": {
+              "id": 286,
+              "insertDatetime": "2021-04-29T16:17:32.593Z",
+              "jobId": 1234,
+              "cellLetter": "B3",
+              "plannedStartTime": "2021-04-30T15:00:00.000Z",
+              "plannedEndTime": "2021-04-30T19:15:00.000Z"
+            },
+            "jobMaterial": null
+          }
+        ],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [
+          {
+            "id": 545,
+            "insertDatetime": "2021-03-25T12:47:57.670Z",
+            "orderLineId": 545,
+            "quantity": 2,
+            "status": "awaiting_execution",
+            "dueDate": "2020-11-19T00:00:00.000Z",
+            "lineNumber": 1,
+            "splitNumber": 1,
+            "startTime": null,
+            "endTime": null,
+            "executionTime": null,
+            "startUserId": null,
+            "totalSetupExecutionTime": null,
+            "jobPrograms": [
+              {
+                "id": 29,
+                "insertDatetime": "2021-03-30T13:55:32.253Z",
+                "partProgramId": 7,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 545,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 7,
+                  "insertDatetime": "2021-03-30T13:55:32.253Z",
+                  "orderLineId": null,
+                  "partNumber": "2607L5S08",
+                  "filename": "a",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 9
+                }
+              }
+            ],
+            "partPrograms": [
+              {
+                "id": 7,
+                "insertDatetime": "2021-03-30T13:55:32.253Z",
+                "orderLineId": null,
+                "partNumber": "2607L5S08",
+                "filename": "a",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 9
+              }
+            ],
+            "orderLine": {
+              "id": 545,
+              "insertDatetime": "2021-03-25T12:47:57.590Z",
+              "orderId": 117,
+              "partNumber": "2607L5S08",
+              "partDescription": "Machining - Sub-Contract",
+              "quantity": 4,
+              "revision": "5",
+              "cutLength": 5,
+              "cutQuantity": 3,
+              "machineSize": "medium",
+              "outerDimension": 2.5,
+              "innerDimension": 3,
+              "requiresMillProgram": "0",
+              "comment": "123",
+              "order": {
+                "id": 117,
+                "insertDatetime": "2021-03-25T12:47:57.543Z",
+                "orderNumber": "MO10885",
+                "navDueDate": "2020-11-19T00:00:00.000Z",
+                "dueDate": null,
+                "orderNumberExtended": "MO10885-12"
+              },
+              "material": {
+                "id": 545,
+                "insertDatetime": "2021-03-25T12:47:57.606Z",
+                "orderLineId": 545,
+                "materialPartNumber": "ST0375X0000P1",
+                "quantityOnHand": 0,
+                "materialStatus": "none_available",
+                "heatNumber": "12",
+                "materialGrade": "12"
+              }
+            },
+            "schedule": {
+              "id": 279,
+              "insertDatetime": "2021-04-29T16:06:46.126Z",
+              "jobId": 545,
+              "cellLetter": "B3",
+              "plannedStartTime": "2021-04-30T06:00:00.000Z",
+              "plannedEndTime": "2021-04-30T10:15:00.000Z"
+            },
+            "jobMaterial": null
+          },
+          {
+            "id": 1234,
+            "insertDatetime": "2021-03-29T11:41:47.076Z",
+            "orderLineId": 545,
+            "quantity": 2,
+            "status": "materials",
+            "dueDate": "2020-11-18T00:00:00.000Z",
+            "lineNumber": 1,
+            "splitNumber": 2,
+            "startTime": null,
+            "endTime": null,
+            "executionTime": null,
+            "startUserId": null,
+            "totalSetupExecutionTime": null,
+            "jobPrograms": [
+              {
+                "id": 30,
+                "insertDatetime": "2021-03-30T13:55:32.270Z",
+                "partProgramId": 7,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 1234,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 7,
+                  "insertDatetime": "2021-03-30T13:55:32.253Z",
+                  "orderLineId": null,
+                  "partNumber": "2607L5S08",
+                  "filename": "a",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 9
+                }
+              }
+            ],
+            "partPrograms": [
+              {
+                "id": 7,
+                "insertDatetime": "2021-03-30T13:55:32.253Z",
+                "orderLineId": null,
+                "partNumber": "2607L5S08",
+                "filename": "a",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 9
+              }
+            ],
+            "orderLine": {
+              "id": 545,
+              "insertDatetime": "2021-03-25T12:47:57.590Z",
+              "orderId": 117,
+              "partNumber": "2607L5S08",
+              "partDescription": "Machining - Sub-Contract",
+              "quantity": 4,
+              "revision": "5",
+              "cutLength": 5,
+              "cutQuantity": 3,
+              "machineSize": "medium",
+              "outerDimension": 2.5,
+              "innerDimension": 3,
+              "requiresMillProgram": "0",
+              "comment": "123",
+              "order": {
+                "id": 117,
+                "insertDatetime": "2021-03-25T12:47:57.543Z",
+                "orderNumber": "MO10885",
+                "navDueDate": "2020-11-19T00:00:00.000Z",
+                "dueDate": null,
+                "orderNumberExtended": "MO10885-12"
+              },
+              "material": {
+                "id": 545,
+                "insertDatetime": "2021-03-25T12:47:57.606Z",
+                "orderLineId": 545,
+                "materialPartNumber": "ST0375X0000P1",
+                "quantityOnHand": 0,
+                "materialStatus": "none_available",
+                "heatNumber": "12",
+                "materialGrade": "12"
+              }
+            },
+            "schedule": {
+              "id": 286,
+              "insertDatetime": "2021-04-29T16:17:32.593Z",
+              "jobId": 1234,
+              "cellLetter": "B3",
+              "plannedStartTime": "2021-04-30T07:00:00.000Z",
+              "plannedEndTime": "2021-04-30T11:11:00.000Z"
+            },
+            "jobMaterial": null
+          }
+        ],
+        "total": 0
+      }
+    ],
+    "C": [
+      {
+        "jobs": [
+          {
+            "id": 1237,
+            "insertDatetime": "2021-03-29T11:45:10.936Z",
+            "orderLineId": 546,
+            "quantity": 1,
+            "status": "materials",
+            "dueDate": "2020-11-17T00:00:00.000Z",
+            "lineNumber": 2,
+            "splitNumber": 3,
+            "startTime": null,
+            "endTime": null,
+            "executionTime": null,
+            "startUserId": null,
+            "totalSetupExecutionTime": null,
+            "jobPrograms": [],
+            "partPrograms": [],
+            "orderLine": {
+              "id": 546,
+              "insertDatetime": "2021-03-25T12:47:57.700Z",
+              "orderId": 117,
+              "partNumber": "2607L3S08",
+              "partDescription": "Machining - Sub-Contract",
+              "quantity": 4,
+              "revision": "",
+              "cutLength": null,
+              "cutQuantity": null,
+              "machineSize": null,
+              "outerDimension": null,
+              "innerDimension": null,
+              "requiresMillProgram": null,
+              "comment": null,
+              "order": {
+                "id": 117,
+                "insertDatetime": "2021-03-25T12:47:57.543Z",
+                "orderNumber": "MO10885",
+                "navDueDate": "2020-11-19T00:00:00.000Z",
+                "dueDate": null,
+                "orderNumberExtended": "MO10885-12"
+              },
+              "material": {
+                "id": 546,
+                "insertDatetime": "2021-03-25T12:47:57.716Z",
+                "orderLineId": 546,
+                "materialPartNumber": "ST0375X0000P1",
+                "quantityOnHand": 57,
+                "materialStatus": "partial_available",
+                "heatNumber": "",
+                "materialGrade": ""
+              }
+            },
+            "schedule": {
+              "id": 278,
+              "insertDatetime": "2021-04-29T16:05:16.303Z",
+              "jobId": 1237,
+              "cellLetter": "C1",
+              "plannedStartTime": "2021-04-30T18:00:00.000Z",
+              "plannedEndTime": "2021-04-30T21:00:00.000Z"
+            },
+            "jobMaterial": null
+          }
+        ],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ],
+    "D": [
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ],
+    "E": [
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [
+          {
+            "id": 1254,
+            "insertDatetime": "2021-03-30T10:02:02.850Z",
+            "orderLineId": 563,
+            "quantity": 1,
+            "status": "awaiting_execution",
+            "dueDate": "2020-12-06T00:00:00.000Z",
+            "lineNumber": 2,
+            "splitNumber": 7,
+            "startTime": null,
+            "endTime": null,
+            "executionTime": null,
+            "startUserId": null,
+            "totalSetupExecutionTime": null,
+            "jobPrograms": [
+              {
+                "id": 25,
+                "insertDatetime": "2021-03-30T11:05:18.263Z",
+                "partProgramId": 6,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 1254,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 6,
+                  "insertDatetime": "2021-03-30T11:05:18.246Z",
+                  "orderLineId": null,
+                  "partNumber": "2664L3S01",
+                  "filename": "a",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 90
+                }
+              },
+              {
+                "id": 62,
+                "insertDatetime": "2021-04-07T10:43:04.853Z",
+                "partProgramId": 19,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 1254,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 19,
+                  "insertDatetime": "2021-04-07T10:43:04.830Z",
+                  "orderLineId": null,
+                  "partNumber": "2664L3S01",
+                  "filename": " 32131",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 1
+                }
+              },
+              {
+                "id": 70,
+                "insertDatetime": "2021-04-07T10:43:04.880Z",
+                "partProgramId": 20,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 1254,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 20,
+                  "insertDatetime": "2021-04-07T10:43:04.863Z",
+                  "orderLineId": null,
+                  "partNumber": "2664L3S01",
+                  "filename": " 321321321",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 1
+                }
+              }
+            ],
+            "partPrograms": [
+              {
+                "id": 6,
+                "insertDatetime": "2021-03-30T11:05:18.246Z",
+                "orderLineId": null,
+                "partNumber": "2664L3S01",
+                "filename": "a",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 90
+              },
+              {
+                "id": 19,
+                "insertDatetime": "2021-04-07T10:43:04.830Z",
+                "orderLineId": null,
+                "partNumber": "2664L3S01",
+                "filename": " 32131",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 1
+              },
+              {
+                "id": 20,
+                "insertDatetime": "2021-04-07T10:43:04.863Z",
+                "orderLineId": null,
+                "partNumber": "2664L3S01",
+                "filename": " 321321321",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 1
+              }
+            ],
+            "orderLine": {
+              "id": 563,
+              "insertDatetime": "2021-03-25T12:47:59.450Z",
+              "orderId": 122,
+              "partNumber": "2664L3S01",
+              "partDescription": "Machining - Sub-Contract",
+              "quantity": 10,
+              "revision": "5",
+              "cutLength": 5,
+              "cutQuantity": 5,
+              "machineSize": "small",
+              "outerDimension": 1.4,
+              "innerDimension": 5.5,
+              "requiresMillProgram": "0",
+              "comment": "testing comment123",
+              "order": {
+                "id": 122,
+                "insertDatetime": "2021-03-25T12:47:59.340Z",
+                "orderNumber": "MO10948",
+                "navDueDate": "2020-12-09T00:00:00.000Z",
+                "dueDate": null,
+                "orderNumberExtended": "MO10948-01"
+              },
+              "material": {
+                "id": 563,
+                "insertDatetime": "2021-03-25T12:47:59.466Z",
+                "orderLineId": 563,
+                "materialPartNumber": "ST0400X0000P1",
+                "quantityOnHand": 0,
+                "materialStatus": "none_available",
+                "heatNumber": "1321",
+                "materialGrade": "1321"
+              }
+            },
+            "schedule": {
+              "id": 290,
+              "insertDatetime": "2021-04-30T10:03:31.790Z",
+              "jobId": 1254,
+              "cellLetter": "E2",
+              "plannedStartTime": "2021-04-30T16:15:00.000Z",
+              "plannedEndTime": "2021-04-30T21:30:00.000Z"
+            },
+            "jobMaterial": null
+          }
+        ],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ],
+    "F": [
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ],
+    "G": [
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [
+          {
+            "id": 1255,
+            "insertDatetime": "2021-03-30T10:02:03.086Z",
+            "orderLineId": 563,
+            "quantity": 1,
+            "status": "materials",
+            "dueDate": "2020-12-06T00:00:00.000Z",
+            "lineNumber": 2,
+            "splitNumber": 8,
+            "startTime": null,
+            "endTime": null,
+            "executionTime": null,
+            "startUserId": null,
+            "totalSetupExecutionTime": null,
+            "jobPrograms": [
+              {
+                "id": 26,
+                "insertDatetime": "2021-03-30T11:05:18.263Z",
+                "partProgramId": 6,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 1255,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 6,
+                  "insertDatetime": "2021-03-30T11:05:18.246Z",
+                  "orderLineId": null,
+                  "partNumber": "2664L3S01",
+                  "filename": "a",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 90
+                }
+              },
+              {
+                "id": 63,
+                "insertDatetime": "2021-04-07T10:43:04.856Z",
+                "partProgramId": 19,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 1255,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 19,
+                  "insertDatetime": "2021-04-07T10:43:04.830Z",
+                  "orderLineId": null,
+                  "partNumber": "2664L3S01",
+                  "filename": " 32131",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 1
+                }
+              },
+              {
+                "id": 71,
+                "insertDatetime": "2021-04-07T10:43:04.883Z",
+                "partProgramId": 20,
+                "partsCompleted": 0,
+                "actualExecutionTime": 0,
+                "ncPartCount": 0,
+                "programStatus": "awaiting_execution",
+                "setupStartTime": null,
+                "setupCompleteTime": null,
+                "setupExecutionTime": 0,
+                "lastPartCompleteDatetime": null,
+                "jobId": 1255,
+                "jobUserIds": 0,
+                "partProgram": {
+                  "id": 20,
+                  "insertDatetime": "2021-04-07T10:43:04.863Z",
+                  "orderLineId": null,
+                  "partNumber": "2664L3S01",
+                  "filename": " 321321321",
+                  "machineType": "lathe",
+                  "idealMachineSize": null,
+                  "estimatedExecutionTime": 1
+                }
+              }
+            ],
+            "partPrograms": [
+              {
+                "id": 6,
+                "insertDatetime": "2021-03-30T11:05:18.246Z",
+                "orderLineId": null,
+                "partNumber": "2664L3S01",
+                "filename": "a",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 90
+              },
+              {
+                "id": 19,
+                "insertDatetime": "2021-04-07T10:43:04.830Z",
+                "orderLineId": null,
+                "partNumber": "2664L3S01",
+                "filename": " 32131",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 1
+              },
+              {
+                "id": 20,
+                "insertDatetime": "2021-04-07T10:43:04.863Z",
+                "orderLineId": null,
+                "partNumber": "2664L3S01",
+                "filename": " 321321321",
+                "machineType": "lathe",
+                "idealMachineSize": null,
+                "estimatedExecutionTime": 1
+              }
+            ],
+            "orderLine": {
+              "id": 563,
+              "insertDatetime": "2021-03-25T12:47:59.450Z",
+              "orderId": 122,
+              "partNumber": "2664L3S01",
+              "partDescription": "Machining - Sub-Contract",
+              "quantity": 10,
+              "revision": "5",
+              "cutLength": 5,
+              "cutQuantity": 5,
+              "machineSize": "small",
+              "outerDimension": 1.4,
+              "innerDimension": 5.5,
+              "requiresMillProgram": "0",
+              "comment": "testing comment123",
+              "order": {
+                "id": 122,
+                "insertDatetime": "2021-03-25T12:47:59.340Z",
+                "orderNumber": "MO10948",
+                "navDueDate": "2020-12-09T00:00:00.000Z",
+                "dueDate": null,
+                "orderNumberExtended": "MO10948-01"
+              },
+              "material": {
+                "id": 563,
+                "insertDatetime": "2021-03-25T12:47:59.466Z",
+                "orderLineId": 563,
+                "materialPartNumber": "ST0400X0000P1",
+                "quantityOnHand": 0,
+                "materialStatus": "none_available",
+                "heatNumber": "1321",
+                "materialGrade": "1321"
+              }
+            },
+            "schedule": {
+              "id": 292,
+              "insertDatetime": "2021-04-30T10:05:47.490Z",
+              "jobId": 1255,
+              "cellLetter": "G2",
+              "plannedStartTime": "2021-04-30T17:15:00.000Z",
+              "plannedEndTime": "2021-04-30T22:30:00.000Z"
+            },
+            "jobMaterial": null
+          }
+        ],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ],
+    "H": [
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ],
+    "I": [
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ],
+    "J": [
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ],
+    "K": [
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ],
+    "L": [
+      {
+        "jobs": [],
+        "total": 0
+      },
+      {
+        "jobs": [],
+        "total": 0
+      }
+    ]
+  },
+  "runPastScheduleJobs": [],
+  "skippedJobs": []
+}
